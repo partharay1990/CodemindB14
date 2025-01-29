@@ -16,6 +16,7 @@ public class ArrayListMethods {
 		al.add(300);
 		al.add(400);
 		al.add(500);
+		al.add(600);
 
 		// add element at specified index
 		al.add(1, 600);
