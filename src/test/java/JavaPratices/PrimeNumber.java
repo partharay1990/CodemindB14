@@ -31,11 +31,11 @@ public class PrimeNumber {
 			}
 
 			if (prime)
-				System.out.println("given number is prime");
+				System.out.println("Given number is prime");
 
 			else
 
-				System.out.println("given number is not prime");
+				System.out.println("Given number is not prime");
 		} catch (NumberFormatException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
