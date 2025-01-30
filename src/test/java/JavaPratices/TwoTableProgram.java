@@ -8,6 +8,7 @@ public class TwoTableProgram {
 			
 			System.out.print(2*i + " ");
 		}
+		
 
 	}
 
