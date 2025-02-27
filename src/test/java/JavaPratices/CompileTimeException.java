@@ -10,9 +10,9 @@ public class CompileTimeException {
 		// TODO Auto-generated method stub
 
 		
-		 File file = new File ("d:/test.txt");
+		 //File file = new File ("d:/test.txt");
 		  
-		 FileInputStream fis = new FileInputStream(file); file.createNewFile();
+		 //FileInputStream fis = new FileInputStream(file); file.createNewFile();
 		 
 
 		CompileTimeException cte = new CompileTimeException();
