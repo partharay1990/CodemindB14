@@ -6,8 +6,10 @@
       <class name="seleniumpractices.TestNgGroups">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyValidLogin" invocation-numbers="1 2"/>
+          <include name="C"/>
           <include name="setup"/>
+          <include name="A"/>
+          <include name="B"/>
         </methods>
       </class> <!-- seleniumpractices.TestNgGroups -->
     </classes>

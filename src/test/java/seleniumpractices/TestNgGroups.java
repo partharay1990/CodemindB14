@@ -15,7 +15,7 @@ public class TestNgGroups {
 
 	WebDriver driver;
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void setup() {
 
 		WebDriverManager.chromedriver().setup();
@@ -24,7 +24,7 @@ public class TestNgGroups {
 		driver.manage().window().maximize();
 	}
 
-	@Test(groups = {"smoke", "regression"}, dataProvider = "userLoginData",priority = 0)
+	@Test(groups = { "regression", "smoke" }, priority = 1, dataProvider = "uservalidlogindata")
 	public void verifyValidLogin(String uname, String pass) {
 
 		driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(uname);
@@ -37,7 +37,7 @@ public class TestNgGroups {
 
 	}
 
-	@Test(groups = {"sanity"}, priority = -1)
+	@Test(groups = { "smoke" }, priority = 3)
 	public void verifyHomePageUrl() {
 
 		String currentUrl = driver.getCurrentUrl();
@@ -45,14 +45,14 @@ public class TestNgGroups {
 
 	}
 
-	@Test(groups = {"smoke"}, priority = 3)
+	@Test(groups = { "sanity" }, priority = 2)
 	public void homePageTitle() {
 
 		String homePageTitle = driver.getTitle();
 		Assert.assertEquals(homePageTitle, "Welcome: Mercury Tours");
 	}
 
-	@DataProvider(name = "userLoginData")
+	@DataProvider(name = "uservalidlogindata")
 	public String[][] userData() {
 
 		String data[][] = { { "admin", "admin@123" }, { "user1", "user@456" }, { "user2", "user@789" } };
@@ -60,7 +60,7 @@ public class TestNgGroups {
 		return data;
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 
 		driver.quit();
