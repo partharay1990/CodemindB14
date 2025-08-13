@@ -1,6 +1,7 @@
 package JavaPratices;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class SetInterface {
@@ -18,6 +19,15 @@ public class SetInterface {
 		for (Integer i : ss) {
 
 			System.out.println(i);
+		}
+
+		System.out.println("***************************************8");
+
+		Iterator<Integer> iterator = ss.iterator();
+
+		while (iterator.hasNext()) {
+
+			System.out.println(iterator.next());
 		}
 
 	}

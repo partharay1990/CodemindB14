@@ -1,6 +1,8 @@
 package JavaPratices;
 
 public class ThisKeywordUsage {
+	
+	// instance member variable
 
 	int a;
 	int b;
@@ -17,7 +19,7 @@ public class ThisKeywordUsage {
 
 	public ThisKeywordUsage(float a) {
 
-		//this(400);
+		this(400);
 
 		System.out.println(a);
 
@@ -35,13 +37,13 @@ public class ThisKeywordUsage {
 
 	public static void main(String[] args) {
 
-		// ThisKeywordUsage thisKeywordUsage = new ThisKeywordUsage();
+//		ThisKeywordUsage thisKeywordUsage = new ThisKeywordUsage();
+//
+//		System.out.println(thisKeywordUsage.a);
 
-		// System.out.println(thisKeywordUsage.a);
+//		ThisKeywordUsage thisKeywordUsage1 = new ThisKeywordUsage(10);
 
-		// ThisKeywordUsage thisKeywordUsage1 = new ThisKeywordUsage(10);
-
-		// ThisKeywordUsage thisKeywordUsage4 = new ThisKeywordUsage(10,20);
+//		 ThisKeywordUsage thisKeywordUsage4 = new ThisKeywordUsage(10,20);
 		
 		ThisKeywordUsage thisKeywordUsage3 = new ThisKeywordUsage(10.15f);
 

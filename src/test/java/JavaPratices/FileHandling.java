@@ -24,7 +24,7 @@ public class FileHandling {
 		System.out.println("Size of File = " + file.length());
 		System.out.println("Name of File = " + file.getName());
 		
-		FileWriter fileWriter =new FileWriter(file); // Write data in file
+		FileWriter fileWriter = new FileWriter(file); // Write data in file
 		
 	/*	Scanner scanner = new Scanner(System.in);
 		

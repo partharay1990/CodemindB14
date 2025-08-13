@@ -31,16 +31,20 @@ public class DropdownNotCommingUnderSelect {
 	public static void selectValueFromDropdown(String tripType) {
 
 		driver.findElement(By.xpath("//input[@id='tripType']")).click();
+		
+		driver.findElement(By.xpath("//div[@class='tripTypeFilter']/ul/li/p[text()='" + tripType + "']")).click();
 
-		List<WebElement> tripOptions = driver.findElements(By.xpath("//div[@class='tripTypeFilter']/ul/li/p"));
 
-		for (WebElement elm : tripOptions) {
-
-			if (elm.getText().equalsIgnoreCase(tripType)) {
-				elm.click();
-				break;
-			}
-		}
+//		List<WebElement> tripOptions = driver.findElements(By.xpath("//div[@class='tripTypeFilter']/ul/li/p"));
+//		
+//
+//		for (WebElement elm : tripOptions) {
+//
+//			if (elm.getText().equalsIgnoreCase(tripType)) {
+//				elm.click();
+//				break;
+//			}
+//		}
 	}
 
 }

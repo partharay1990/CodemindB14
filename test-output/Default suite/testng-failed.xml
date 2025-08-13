@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumpractices.TestNgGroups">
+      <class name="testcases.VerifyOnlyForTestingDetails">
         <methods>
-          <include name="tearDown"/>
-          <include name="C"/>
+          <include name="verifyOnlyForTestingDetails"/>
           <include name="setup"/>
-          <include name="A"/>
-          <include name="B"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- seleniumpractices.TestNgGroups -->
+      </class> <!-- testcases.VerifyOnlyForTestingDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

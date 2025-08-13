@@ -1,4 +1,4 @@
-package JavaPratices;
+ package JavaPratices;
 
 public class ExcptionHandling {
 
@@ -6,7 +6,7 @@ public class ExcptionHandling {
 		// TODO Auto-generated method stub
 
 		ExcptionHandling eh = new ExcptionHandling();
-		int result = eh.div(10, 3);
+		int result = eh.div(10, 2);
 
 		System.out.println("Division Result:" + result);
 

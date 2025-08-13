@@ -9,36 +9,42 @@ abstract class Calculater {
 
 	void substraction() {
 
-		System.out.println("This is substarction Method");
+		System.out.println("This is substraction Method");
+
 	}
 
 	void multiplication() {
 
 		System.out.println("This is multiplication Method");
+
 	}
 
 	abstract void division();
 
 	abstract void sincosOperation();
+
 }
 
-class casio extends Calculater {
+class Casio extends Calculater {
 
 	void division() {
 
+		System.out.println("This is Division Method.");
 	}
 
 	void sincosOperation() {
-
+		System.out.println("This is Sincos Method.");
 	}
 }
 
 public class AbstractClassExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// Calculater cal = new Calculater();
+		Casio ca = new Casio();
+		ca.division();
+		ca.sincosOperation();
 
 	}
 

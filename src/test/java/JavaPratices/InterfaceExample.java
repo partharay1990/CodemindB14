@@ -2,36 +2,40 @@ package JavaPratices;
 
 interface A {
 
-	void Add();
+	void addition();
 
-	void Sub();
+	void substraction();
 
-	void Mul();
+	void multiplication();
 
-	void Div();
+	void division();
+
+	public static final int sum = 0;
+
 }
 
 class Cal implements A {
 
-	public void Add() {
+	public void addition() {
 
-		System.out.println("This is Addition Method");
+		System.out.println("This is addition method");
 	}
 
-	public void Sub() {
+	public void substraction() {
 
-		System.out.println("This is Substraction Method");
+		System.out.println("This is substraction method");
 	}
 
-	public void Mul() {
+	public void multiplication() {
 
-		System.out.println("This is Multiplaction Method");
+		System.out.println("This is multiplication method");
 	}
 
-	public void Div() {
+	public void division() {
 
-		System.out.println("This is Division Method");
+		System.out.println("This is division method");
 	}
+
 }
 
 public class InterfaceExample {
@@ -40,7 +44,7 @@ public class InterfaceExample {
 		// TODO Auto-generated method stub
 
 		Cal c = new Cal();
-		c.Add();
+		c.addition();
 
 	}
 
