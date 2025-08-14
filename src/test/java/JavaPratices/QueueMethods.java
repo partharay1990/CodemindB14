@@ -30,6 +30,7 @@ public class QueueMethods {
 		priorityQueue.add(325);
 		priorityQueue.add(425);
 		priorityQueue.add(525);
+		priorityQueue.add(625);
 
 		// priorityQueue.clear();
 
