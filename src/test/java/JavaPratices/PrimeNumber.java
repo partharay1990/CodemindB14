@@ -7,7 +7,7 @@ public class PrimeNumber {
 	public static void main(String[] args) {
 
 		try (Scanner scanner = new Scanner(System.in)) {
-			System.out.println("Please Enter number to check prime or not..");
+			System.out.println("Please Enter number to check prime or not...");
 
 			int num = Integer.parseInt(scanner.next());
 
@@ -31,11 +31,11 @@ public class PrimeNumber {
 			}
 
 			if (prime)
-				System.out.println("Given number is prime");
+				System.out.println("Given number is prime..");
 
 			else
 
-				System.out.println("Given number is not prime");
+				System.out.println("Given number is not prime..");
 		} catch (NumberFormatException e) {
 			
 			e.printStackTrace();
