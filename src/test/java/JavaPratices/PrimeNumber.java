@@ -37,7 +37,7 @@ public class PrimeNumber {
 
 				System.out.println("Given number is not prime");
 		} catch (NumberFormatException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 

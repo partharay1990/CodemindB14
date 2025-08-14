@@ -28,6 +28,8 @@ public class ArrayListMethods {
 		// Removes all elements from this list
 
 		//al.removeAll(al);
+		
+		System.out.println("***************************");
 
 		ArrayList<Integer> alArrayList = new ArrayList<Integer>();
 
