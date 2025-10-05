@@ -55,7 +55,7 @@ public class TestNgGroups {
 	@DataProvider(name = "uservalidlogindata")
 	public String[][] userData() {
 
-		String data[][] = { { "admin", "admin@123" }, { "user1", "user@456" }, { "user2", "user@789" } };
+		String data[][] = {{"admin","admin@123"},{"user","user@123"},{"user1","user1@123"}};
 
 		return data;
 	}

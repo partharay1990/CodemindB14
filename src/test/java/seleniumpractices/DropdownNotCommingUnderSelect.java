@@ -33,6 +33,8 @@ public class DropdownNotCommingUnderSelect {
 		driver.findElement(By.xpath("//input[@id='tripType']")).click();
 		
 		driver.findElement(By.xpath("//div[@class='tripTypeFilter']/ul/li/p[text()='" + tripType + "']")).click();
+		
+		
 
 
 //		List<WebElement> tripOptions = driver.findElements(By.xpath("//div[@class='tripTypeFilter']/ul/li/p"));

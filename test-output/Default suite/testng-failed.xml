@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.VerifyOnlyForTestingDetails">
+      <class name="testcases.VerifyLoginFirstMSg">
         <methods>
-          <include name="verifyOnlyForTestingDetails"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="verifyLoginFirstMSg"/>
         </methods>
-      </class> <!-- testcases.VerifyOnlyForTestingDetails -->
+      </class> <!-- testcases.VerifyLoginFirstMSg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

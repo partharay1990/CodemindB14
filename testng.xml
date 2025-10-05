@@ -13,9 +13,10 @@
 	<test thread-count="5" name="Test">
 
 		<packages>
-			
 			<package name="seleniumpractices.*"></package>
 			<package name="testcases.*"></package>
+			<package name="pages.*"></package>
+			<package name="Utility.*"></package>
 		</packages>
 
 	</test> <!--

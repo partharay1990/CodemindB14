@@ -1,25 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="11" total="18" passed="7" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Test Case Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed !!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed !!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed !!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed !!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed !!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed !!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Started!!]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Passed !!]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-03-13T20:47:48 IST" name="Default suite" finished-at="2025-03-13T20:47:57 IST" duration-ms="8452">
+  <suite started-at="2025-10-04T15:51:11 IST" name="Reporter" finished-at="2025-10-04T15:53:00 IST" duration-ms="108975">
     <groups>
+      <group name="regression">
+        <method signature="TestNgGroups.verifyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:seleniumpractices.TestNgGroups@5939a379]" name="verifyValidLogin" class="seleniumpractices.TestNgGroups"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="VerifyOnlyTestingPage.verifyOnlyTestingPage()[pri:0, instance:testcases.VerifyOnlyTestingPage@59af0466]" name="verifyOnlyTestingPage" class="testcases.VerifyOnlyTestingPage"/>
+        <method signature="TestNgGroups.verifyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:seleniumpractices.TestNgGroups@5939a379]" name="verifyValidLogin" class="seleniumpractices.TestNgGroups"/>
+        <method signature="TestNgGroups.verifyHomePageUrl()[pri:3, instance:seleniumpractices.TestNgGroups@5939a379]" name="verifyHomePageUrl" class="seleniumpractices.TestNgGroups"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="VerifyTableData.verifyTableData()[pri:0, instance:testcases.VerifyTableData@3e6ef8ad]" name="verifyTableData" class="testcases.VerifyTableData"/>
+        <method signature="TestNgGroups.homePageTitle()[pri:2, instance:seleniumpractices.TestNgGroups@5939a379]" name="homePageTitle" class="seleniumpractices.TestNgGroups"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-03-13T20:47:48 IST" name="Default test" finished-at="2025-03-13T20:47:57 IST" duration-ms="8452">
-      <class name="seleniumpractices.HardAssertInTestNg">
-        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumpractices.HardAssertInTestNg@2b662a77]" started-at="2025-03-13T20:47:48 IST" name="setup" finished-at="2025-03-13T20:47:54 IST" duration-ms="6069" status="PASS">
+    <test started-at="2025-10-04T15:51:11 IST" name="Test" finished-at="2025-10-04T15:53:00 IST" duration-ms="108975">
+      <class name="testcases.VerifyOnlyTestingPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.VerifyOnlyTestingPage@59af0466]" started-at="2025-10-04T15:51:11 IST" name="setup" finished-at="2025-10-04T15:51:21 IST" duration-ms="9722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHomePageFunctinality()[pri:0, instance:seleniumpractices.HardAssertInTestNg@2b662a77]" started-at="2025-03-13T20:47:54 IST" name="verifyHomePageFunctinality" finished-at="2025-03-13T20:47:56 IST" duration-ms="1956" status="PASS">
+        <test-method signature="verifyOnlyTestingPage()[pri:0, instance:testcases.VerifyOnlyTestingPage@59af0466]" started-at="2025-10-04T15:51:21 IST" name="verifyOnlyTestingPage" finished-at="2025-10-04T15:51:26 IST" duration-ms="4900" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Test Case Started!!]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Passed !!]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifyHomePageFunctinality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractices.HardAssertInTestNg@2b662a77]" started-at="2025-03-13T20:47:56 IST" name="tearDown" finished-at="2025-03-13T20:47:57 IST" duration-ms="345" status="PASS">
+        </test-method> <!-- verifyOnlyTestingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.VerifyOnlyTestingPage@59af0466]" started-at="2025-10-04T15:51:26 IST" name="tearDown" finished-at="2025-10-04T15:51:26 IST" duration-ms="367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- seleniumpractices.HardAssertInTestNg -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testcases.VerifyOnlyTestingPage -->
+      <class name="seleniumpractices.TestNgGroups">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:51:34 IST" name="setup" finished-at="2025-10-04T15:51:43 IST" duration-ms="8650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:51:43 IST" name="verifyValidLogin" data-provider="uservalidlogindata" finished-at="2025-10-04T15:51:54 IST" duration-ms="10999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started!!]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Passed !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:51:54 IST" name="tearDown" finished-at="2025-10-04T15:51:54 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:51:54 IST" name="setup" finished-at="2025-10-04T15:52:06 IST" duration-ms="12530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:06 IST" name="verifyValidLogin" data-provider="uservalidlogindata" finished-at="2025-10-04T15:52:11 IST" duration-ms="4597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started!!]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Passed !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:11 IST" name="tearDown" finished-at="2025-10-04T15:52:11 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:11 IST" name="setup" finished-at="2025-10-04T15:52:28 IST" duration-ms="16332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:28 IST" name="verifyValidLogin" data-provider="uservalidlogindata" finished-at="2025-10-04T15:52:33 IST" duration-ms="5039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started!!]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Passed !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:33 IST" name="tearDown" finished-at="2025-10-04T15:52:33 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:33 IST" name="setup" finished-at="2025-10-04T15:52:43 IST" duration-ms="9659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homePageTitle()[pri:2, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:43 IST" name="homePageTitle" finished-at="2025-10-04T15:52:43 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started!!]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Passed !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:43 IST" name="tearDown" finished-at="2025-10-04T15:52:43 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:43 IST" name="setup" finished-at="2025-10-04T15:52:59 IST" duration-ms="16279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageUrl()[pri:3, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:59 IST" name="verifyHomePageUrl" finished-at="2025-10-04T15:52:59 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started!!]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Passed !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractices.TestNgGroups@5939a379]" started-at="2025-10-04T15:52:59 IST" name="tearDown" finished-at="2025-10-04T15:53:00 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumpractices.TestNgGroups -->
+      <class name="testcases.VerifyTableData">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.VerifyTableData@3e6ef8ad]" started-at="2025-10-04T15:51:26 IST" name="setup" finished-at="2025-10-04T15:51:33 IST" duration-ms="7154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTableData()[pri:0, instance:testcases.VerifyTableData@3e6ef8ad]" started-at="2025-10-04T15:51:33 IST" name="verifyTableData" finished-at="2025-10-04T15:51:34 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started!!]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Passed !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTableData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.VerifyTableData@3e6ef8ad]" started-at="2025-10-04T15:51:34 IST" name="tearDown" finished-at="2025-10-04T15:51:34 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.VerifyTableData -->
+    </test> <!-- Test -->
+  </suite> <!-- Reporter -->
 </testng-results>

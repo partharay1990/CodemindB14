@@ -24,16 +24,18 @@ public class BaseTest {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
-		driver.get(ReadingProperiesFile.getProperty("omayo"));
+		driver.get(ReadingProperiesFile.getProperty("omayoUrl"));
 		driver.manage().window().maximize();
 		verify = new SoftAssert();
-		
+
 	}
 
 	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 
-		verify.assertAll();
+		if (!(verify == null)) {
+			verify.assertAll();
+		}
 
 		driver.quit();
 	}

@@ -49,13 +49,13 @@ public class AdvancedActionInSelenium {
 
 		driver.navigate().to("https://omayo.blogspot.com/");
 		
-		actions.scrollByAmount(0, 2000).build().perform();
+	//	actions.scrollByAmount(0, 2000).build().perform();
 
 		WebElement blogMenu = driver.findElement(By.cssSelector("#blogsmenu"));
 
 		actions.moveToElement(blogMenu).build().perform();
 
-		driver.findElement(By.xpath("(//div[@id='cssmenu']//ul//ul//a)[2]")).click();
+		driver.findElement(By.xpath("(//div[@id='cssmenu']/ul//ul//a)[3]")).click();
 		
 		
 
